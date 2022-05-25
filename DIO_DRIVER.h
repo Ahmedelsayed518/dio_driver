@@ -1,7 +1,7 @@
 #ifndef DIO_DRIVER_H
 #define DIO_DRIVER_H
-#include "../REG.h"
-#include "../BIT_MATH.h"
+#include "REG.h"
+#include "BIT_MATH.h"
 
 /* port define */
 #define DIO_PORTA 0
