@@ -1,5 +1,5 @@
-#ifndef STD_H
-#define STD_H
+#ifndef STD_H_
+#define STD_H_
 
 typedef signed short int Sint16;
 typedef signed long int Sint32;

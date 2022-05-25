@@ -1,7 +1,7 @@
 /* HI, it's AHMED driver*/
 
-#ifndef REG_H
-#define REG_H
+#ifndef REG_H_
+#define REG_H_
 #include "STD.h"
 /* defining DDR registers and their addresses */
 #define DDRA *((volatile Uint8*)0x3A)

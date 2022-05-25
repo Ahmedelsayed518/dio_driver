@@ -1,5 +1,5 @@
-#ifndef BIT_MATH_H
-#define BIT_MATH_H
+#ifndef BIT_MATH_H_
+#define BIT_MATH_H_
 
 #define SET_BIT(REG, BITNO) (REG) |= (1 << (BITNO))
 #define CLR_BIT(REG, BITNO) (REG) &= (~(1 << (BITNO)))
