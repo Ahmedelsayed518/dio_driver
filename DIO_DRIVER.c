@@ -238,16 +238,16 @@ void DIO_Nibble(Uint8 PortIDCopy, Uint8 Section, Uint8 data)
 			switch(PortIDCopy)
 			{
 				case DIO_PORTA:
-					PORTA = (PORTA & 0x0F) | ((data & 0xF) << 4);
+					PORTA = (PORTA & 0x0F) | ((data & 0xF0));
 					break;
 				case DIO_PORTB:
-					PORTB = (PORTB & 0x0F) | ((data & 0xF) << 4);
+					PORTB = (PORTB & 0x0F) | ((data & 0xF0));
 					break;
 				case DIO_PORTC:
-					PORTC = (PORTC & 0x0F) | ((data & 0xF) << 4);
+					PORTC = (PORTC & 0x0F) | ((data & 0xF0));
 					break;
 				case DIO_PORTD:
-					PORTD = (PORTD & 0x0F) | ((data & 0xF) << 4);
+					PORTD = (PORTD & 0x0F) | ((data & 0xF0));
 					break;		
 			}
 		}
